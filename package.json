@@ -29,6 +29,7 @@
 		"@hapi/iron": "^6.0.0",
 		"@lukeed/uuid": "^2.0.0",
 		"@magic-sdk/admin": "^1.3.0",
+		"@sveltejs/adapter-cloudflare-workers": "^1.0.0-next.25",
 		"cookie": "^0.4.1",
 		"dotenv": "^9.0.0",
 		"magic-sdk": "^4.3.0"
