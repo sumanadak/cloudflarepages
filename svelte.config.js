@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-cloudflare-workers';
+import cloudflare from '@sveltejs/adapter-cloudflare'
 import preprocess from 'svelte-preprocess';
 
 
@@ -11,7 +11,9 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		adapter: adapter()
+		adapter: cloudflare({
+			platform : 'node'
+		})
 	}
 };
 
