@@ -1,4 +1,4 @@
-import cloudflare from '@sveltejs/adapter-cloudflare'
+import cloudflare from '@sveltejs/adapter-static'
 import preprocess from 'svelte-preprocess';
 
 
